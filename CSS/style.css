@@ -645,6 +645,7 @@ footer .studio-word {
     .our-team ul{
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 30px;
         padding-left: 0px;
     }
