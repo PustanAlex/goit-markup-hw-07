@@ -1360,6 +1360,12 @@ footer .studio-word {
             padding-left:215px;
         }
 
+        .menu-bar {
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
         .global-header-portofolio {
             border-bottom: 1px solid #ECECEC;
             justify-content: center;
@@ -1367,9 +1373,6 @@ footer .studio-word {
         }
 
 
-        /* .menu-bar .webstudio-logo {
-            margin-left: 215px;
-        } */
 
 
         .mail-svg {
