@@ -1363,7 +1363,6 @@ footer .studio-word {
         .menu-bar {
             display: flex;
             justify-content: flex-start;
-
         }
 
         .global-header-portofolio {
@@ -1372,6 +1371,11 @@ footer .studio-word {
             align-items: center;
         }
 
+        .portofolio-bar {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
 
 
 
