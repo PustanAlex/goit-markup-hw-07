@@ -234,6 +234,7 @@ main .main-title {
 .our-team-photos ul {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
 }
 
 .our-team-photos ul img {
@@ -653,6 +654,8 @@ footer .studio-word {
         gap: 30px;
         padding-left: 0px;
     }
+
+    
 
     .our-team img {
         width: 270px;
