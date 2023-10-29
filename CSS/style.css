@@ -647,7 +647,7 @@ footer .studio-word {
         justify-content: center;
         align-items: center;
         gap: 30px;
-        padding-left: 0px;
+        /* padding-left: 0px; */
     }
 
     .our-team img {
