@@ -173,15 +173,7 @@ main .main-title {
     height: 70px;
 }
 
-.web-main-explanations {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.web-main-explanation ul {
-    padding: 0;
-}
 
 
 .main-button {
@@ -394,6 +386,7 @@ footer .studio-word {
     line-height: 16.41px;
     margin-bottom: 20px;
     font-family: var(--body-font-family);
+    margin-top: 0px;
 }
 
 .footer-social {
@@ -402,8 +395,7 @@ footer .studio-word {
     align-items:center;
     width: 206px;
     height: 80px;
-    margin-left: 70px;
-    margin-right: 93px;
+
 }
 
 .footer-svgs {
@@ -418,7 +410,7 @@ footer .studio-word {
    justify-content: center;
    align-items: center;
    width: 100%;
-   
+   gap: 20px;
 }
 
 .input-for-footer {
@@ -427,12 +419,12 @@ footer .studio-word {
     justify-content: center;
     align-items: center;
     width: 100%;
-    
+    gap: 20px;
 }
 
 .input-for-footer input{
     height: 50px;
-    width: 450px;
+    width: 90%;
     background-color: rgba(33, 150, 243, 0);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -455,6 +447,8 @@ footer .studio-word {
     font-weight: 700;
     line-height: 16.41px;
     letter-spacing: 3%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .newslatter-subscribe button {
@@ -467,7 +461,6 @@ footer .studio-word {
     color: #fff;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-top: 20px;
 }
 
 .newslatter-subscribe svg {
@@ -541,7 +534,6 @@ footer .studio-word {
         align-items: center;
         width: 100%;
         height: 60px;
-        /* padding-left: 15px; */
     }
     
     .menu-bar { 
@@ -602,11 +594,13 @@ footer .studio-word {
         height: 50px;
     }
 
-    .web-main-explanation ul{
+    .main-web-section ul{
         display: flex;
         flex-direction: column;
         row-gap: 30px;
+        padding-left: 0px;
     }
+
 
     .web-svgs {
         display: flex;
@@ -769,7 +763,6 @@ footer .studio-word {
     padding-left: 24px;
     margin-top: 20px;
     margin-bottom: 0px;
-    /* margin: 0px auto; */
     }
 
     .main-div p {
@@ -837,7 +830,7 @@ footer .studio-word {
         position: relative;
         background-color: #fff;
         padding: 20px;
-        width: 480px;
+        width: 80%;
         height: 581px;
         border-radius: 4px;
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
@@ -850,8 +843,8 @@ footer .studio-word {
     
 
       .modal-content svg{
-        height: 18px;
-        width: 18px;
+        height: 14px;
+        width: 16px;
       }
 
       .is-hidden {
@@ -915,7 +908,7 @@ footer .studio-word {
 
       .modal-form input {
         height: 40px;
-        width: 370px;
+        width: 90%;
         background-color: #fff;
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
@@ -1251,14 +1244,7 @@ footer .studio-word {
             padding-bottom:60px ;
         }
 
-        .web-main-explanations {}
-
-        .web-svg-description {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-        }
+        
 
 
         .main-web-section ul{
@@ -1271,7 +1257,6 @@ footer .studio-word {
             gap: 30px;
             width: 738px;
             padding-left: 0px;
-
         }
         
         .our-team ul {
@@ -1310,6 +1295,14 @@ footer .studio-word {
             flex-wrap: wrap;
             align-items: flex-start;
             justify-content: center;
+        }
+
+        .footer-adress-container {
+            margin-right: 165px;
+        }
+
+        .input-for-footer input {
+            width: 450px;
         }
 
         .portofolio {
@@ -1562,7 +1555,7 @@ footer .studio-word {
             align-items: baseline;
          }
 
-         .input-for-footer label input{
+         .input-for-footer input{
             width: 358px;
             margin: 0;
          }
@@ -1570,7 +1563,10 @@ footer .studio-word {
         .footer-social {
         display: flex;
         align-items:flex-start;
-        margin-top: -45px;
+        margin-top: -35px;
+        margin-left: 70px;
+        margin-right: 93px;
+        gap: 20px
         }
 
         /* Modal content Desktop */
@@ -1578,6 +1574,11 @@ footer .studio-word {
 
         .modal-content {
             width: 528px;
+        }
+
+        .modal-content svg {
+            height: 16px;
+            width: 16px;
         }
 
         .modal-form input {
@@ -1588,9 +1589,6 @@ footer .studio-word {
             margin-left: 12px;
         }
 
-        .newslatter-subscribe button {
-            margin-left: 12px;
-        }
 
         /* Portofolio */
 
