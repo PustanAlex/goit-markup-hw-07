@@ -534,6 +534,7 @@ footer .studio-word {
         align-items: center;
         width: 100%;
         height: 60px;
+        border-bottom:1px solid #ECECEC ;
     }
     
     .menu-bar { 
@@ -669,7 +670,7 @@ footer .studio-word {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 0;
         gap: 30px;
     }
@@ -1148,10 +1149,7 @@ footer .studio-word {
             display: none;
         }
 
-        .global-header-portofolio {
-            border-bottom: 1px solid tomato;
-            padding-left: 215px;
-        }
+    
 
         .nav-contacts ul {
             display: flex;
@@ -1211,6 +1209,9 @@ footer .studio-word {
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
         }
 
         .svg-menu-opener {
@@ -1361,12 +1362,14 @@ footer .studio-word {
 
         .global-header-portofolio {
             border-bottom: 1px solid #ECECEC;
+            justify-content: center;
+            align-items: center;
         }
 
 
-        .menu-bar .webstudio-logo {
+        /* .menu-bar .webstudio-logo {
             margin-left: 215px;
-        }
+        } */
 
 
         .mail-svg {
