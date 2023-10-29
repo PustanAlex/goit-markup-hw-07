@@ -229,12 +229,12 @@ main .main-title {
 
 .our-team-photos {
     width: 100%;
+    padding-left: 0;
 }
 
 .our-team-photos ul {
     display: flex;
     flex-direction: column;
-    padding-left: 0;
 }
 
 .our-team-photos ul img {
