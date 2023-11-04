@@ -211,7 +211,6 @@ main .main-title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
     height: 622px;
     background-color: #fff;
     box-shadow: 0px 2px 1px 0px #00000033;
@@ -296,7 +295,7 @@ main .main-title {
 
 .customers-container {
     display: flex;
-    width: 450px;
+    width: 90%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
